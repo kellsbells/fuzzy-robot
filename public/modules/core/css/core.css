@@ -1,0 +1,99 @@
+body {
+  color: #53595d;
+  background: url('../img/images/background.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #d8605d;
+}
+
+.container-fluid {
+  margin-top: 15%; 
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+}
+
+.icons img {
+  height: 25px;
+  width: 25px;
+}
+
+.firstParagraph {
+  margin-top: 5%;
+}
+
+.btn {
+  background-color: red;
+}
+
+a {
+  color: #d8605d;
+}
+
+a.ng-binding {
+  color: #d8605d;
+}
+
+button.btn.btn-default {
+  color: #d8605d;
+  background-color: #5e2826;
+  margin: 5% 0 5% 0;
+  width: 100%;
+}
+
+a.btn.btn-default {
+  color: #d8605d;
+  margin: 5% 0 5% 0;
+  width: 100%;
+}
+
+a:link {
+    color: #d8605d;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-black and white images, color on hover*/
+.tabby img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  border-radius: 6px;
+  padding: 1% 1%;
+  max-width: 100px;
+}
+
+.tabby img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+
+.portfolio img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  border-radius: 6px;
+  padding: 1% 1%;
+  width: 45%;
+}
+
+.portfolio img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+
