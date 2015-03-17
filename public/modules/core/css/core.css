@@ -1,10 +1,17 @@
 body {
   color: #53595d;
-  background: url('/modules/core/img/images/background5.gif') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-color: #cecfc9;
+}
+
+
+@media (min-width: 768px) { 
+  .content {
+    background: url('/modules/core/img/images/background5.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 
 }
 
@@ -15,9 +22,12 @@ h4 {
 }
 
 .container-fluid {
-  margin-top: 15%; 
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 100;
+}
+
+.hidden-xs {
+  margin-top: 15%;
 }
 
 .icons img {
@@ -108,18 +118,12 @@ div.col-xs-3 {
  
 }
 
-
-@media (max-width: 500px) {
-
-  body {
-  background: url('/modules/core/img/images/background6.gif') no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+.head-image {
+  max-width: 95%;
+  border-radius: 5px;
 }
 
-}
+
 
 
 
